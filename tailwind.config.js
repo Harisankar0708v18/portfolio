@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily : {
+      'hero-font' : "Permanent Marker"
+    }
   },
   plugins: [],
 }
