@@ -1,7 +1,10 @@
 import Header from './components/Header';
 import Hero from './components/hero';
 import About from './components/about';
-import project from './components/projects';
+import Project from './components/projects';
+import Resume from './components/resume';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -10,7 +13,11 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <project />
+      <Project />
+      <Resume />
+      <Contact />
+      <Footer />
+     
      
       
     </div>
