@@ -14,7 +14,7 @@ export default function Header(){
          </ol>
     </nav>
     {toggleMenu && <nav className="block md:hidden">
-        <ol className="flex flex-col text-white mobile-nav">
+        <ol onClick={()=> setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
             <li><a href="/">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Project</a></li>
