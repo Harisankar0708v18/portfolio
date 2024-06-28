@@ -10,8 +10,8 @@ export default function Resume(){
         <div className='md:w-1/2 flex justify-center'>
 
             <div className='flex flex-col py-10 justify-center text-white'>
-            <h1 className='text-4xl text-white border-b-4 border-[#5551E3] mb-5 w-[140px] font-bold'>Resume</h1>
-            <p>hi you can view my resume <a className='btn ' href={config.link}>Download</a>  </p>
+            <h1 className='text-4xl text-first border-b-4 border-[#5551E3] mb-5 w-[140px] font-bold'>Resume</h1>
+            <p className='text-first pb-3'>hi you can view my resume </p> <a className='btn text-white text-center' href={config.link}>Download</a> 
          </div>
            
         </div>

@@ -6,13 +6,23 @@ header ol li {
     @apply px-2;
 }
 .bg-primary{
-    background: rgb(85, 81, 227);
+    background: #343148;
 }
 
 .bg-secondary{
-    background: #2b2d77;
+    background: #D7C49E;
+
 
 }
+
+.text-second{
+ color: #D7C49E;
+
+}
+.text-first{
+    color: #343148;
+}
+
 
 .mobile-nav{
     @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4 ;
