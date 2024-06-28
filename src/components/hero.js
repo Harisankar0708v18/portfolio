@@ -3,7 +3,7 @@ import HeroImg from '../assets/hero.png';
 import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin, AiOutlineInstagram,} from "react-icons/ai";
 export default function Hero(){
     const naan = {
-        maintitle:'im a fullStack devolper',
+        maintitle:'im a fullStack developer',
         social : {
             twitter:"https://x.com/Hari20201949",
             instagram:'https://www.instagram.com/_peter_quill__18?igsh=MWxwY2N1M2xxY2N6NQ%3D%3D',

@@ -7,17 +7,20 @@ export default function Project(){
             {
                 image: WebsiteImg1,
                 desc: 'e commerce website using bootstrap',
-                link:'https://hv18fashions.netlify.app'
+                link:'https://hv18fashions.netlify.app',
+                github:"https://github.com/Harisankar0708v18/EcomWebsiteHv18"
             },
             {
                 image: WebsiteImg2,
                 desc: 'online notes website using react js',
-                link:'https://harisnotesapp.netlify.app'
+                link:'https://harisnotesapp.netlify.app',
+                github:"https://github.com/Harisankar0708v18/notes"
             },
             {
                 image: WebsiteImg3,
                 desc: 'online drum kit website using react js',
-                link:'https://haris-drum-kit.netlify.app'
+                link:'https://haris-drum-kit.netlify.app',
+                github:"https://github.com/Harisankar0708v18/drum"
             },
            ]
         }
@@ -28,7 +31,7 @@ export default function Project(){
         <div className="w-full ">
         <div className="flex flex-col px-10 py-6">
         <h1 className='text-4xl text-white border-b-4 border-[#D7C49E] mb-5 w-[150px] font-bold text-second'> projects</h1>
-        <p className='text-second'>these are some project that i have created with diffrent languages</p>
+        <p className='text-second'>These are some projects that I have created using different programming languages</p>
         </div>
           
         </div>
@@ -42,6 +45,12 @@ export default function Project(){
                     <p className='text-center px-5 py-5 text-first pb-4'>{projects.desc}</p>
                     <div className='flex justify-center'>
                         <a className='btn ' target='_blank' href={projects.link}>view projects</a>
+
+
+                    </div>
+                    <div className='flex justify-center mt-2'>
+                        <a className='btn ' target='_blank' href={projects.github}>view github </a>
+                        
 
                     </div>
                 </div>
